@@ -1,0 +1,10 @@
+$Id: Changes,v 1.2 2004/03/05 12:00:27 roel Exp $
+Revision history for Perl extension Local-MifTree.
+
+0.043 02 Mar 2004
+      - original version; created by h2xs 1.22 with options
+        -XA -b 5.6.0 Local-MifTree
+0.044 05 Mar 2004
+      - changed MifTreeTags:
+        "Element" may now have daughter "ElementReferenced";
+        added "BNextUnique" for book files

@@ -1,0 +1,17 @@
+name: Local-MifTree
+version: 0.044
+abstract: A MIF Parser
+author: Roel van der Steen <roel-perl@st2x.net>
+license: perl
+distribution_type: module
+requires:
+  perl: 5.6.0
+  File::Temp: 0
+  IO::Tokenized: 0
+  IO::Tokenized::File: 0
+  IO::Tokenized::Scalar: 0
+  Tree::DAG_Node: 0
+no_index:
+  directory:
+    - inc
+generated_by: Module::Install version 0.32
